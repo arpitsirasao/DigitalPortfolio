@@ -23,10 +23,10 @@ class About extends Component{
                 
                 <br />
                 <div className="row">
-                    <div className="col-4">
+                    <div className="col-6 col-md-4">
                         <span>Java</span>
                     </div>
-                    <div className="col-4">
+                    <div className="col-6 col-md-4">
                         <span className="fa fa-star checked"></span>
                         <span className="fa fa-star checked"></span>
                         <span className="fa fa-star checked"></span>
@@ -36,10 +36,10 @@ class About extends Component{
                 </div>
                 <br />
                 <div className="row">
-                    <div className="col-4">
+                    <div className="col-6 col-md-4">
                         <span>Python</span>
                     </div>
-                    <div className="col-4">
+                    <div className="col-6 col-md-4">
                         <span className="fa fa-star checked"></span>
                         <span className="fa fa-star checked"></span>
                         <span className="fa fa-star checked"></span>
@@ -49,10 +49,10 @@ class About extends Component{
                 </div>
                 <br />
                 <div className="row">
-                    <div className="col-4">
+                    <div className="col-6 col-md-4">
                         <span>HTML/CSS</span>
                     </div>
-                    <div className="col-4">
+                    <div className="col-6 col-md-4">
                         <span className="fa fa-star checked"></span>
                         <span className="fa fa-star checked"></span>
                         <span className="fa fa-star checked"></span>
@@ -62,10 +62,10 @@ class About extends Component{
                 </div>
                 <br />
                 <div className="row">
-                    <div className="col-4">
+                    <div className="col-6 col-md-4">
                         <span>Javascript</span>
                     </div>
-                    <div className="col-4">
+                    <div className="col-6 col-md-4">
                         <span className="fa fa-star checked"></span>
                         <span className="fa fa-star checked"></span>
                         <span className="fa fa-star checked"></span>
@@ -75,10 +75,10 @@ class About extends Component{
                 </div>
                 <br />
                 <div className="row">
-                    <div className="col-4">
+                    <div className="col-6 col-md-4">
                         <span>DBMS / MySQL</span>
                     </div>
-                    <div className="col-4">
+                    <div className="col-6 col-md-4">
                         <span className="fa fa-star checked"></span>
                         <span className="fa fa-star checked"></span>
                         <span className="fa fa-star checked"></span>
@@ -88,10 +88,10 @@ class About extends Component{
                 </div>
                 <br />
                 <div className="row">
-                    <div className="col-4">
+                    <div className="col-6 col-md-4">
                         <span>React JS</span>
                     </div>
-                    <div className="col-4">
+                    <div className="col-6 col-md-4">
                         <span className="fa fa-star checked"></span>
                         <span className="fa fa-star checked"></span>
                         <span className="fa fa-star-half-o checked"></span>
@@ -107,34 +107,34 @@ class About extends Component{
                     <h3>Personal Details</h3>
                     <br/>
                     <div className="row">
-                        <div className="col-4">
+                        <div className="col-6 col-md-4">
                             <span className="details">Full Name:</span>
                         </div>
-                        <div className="col-4">
+                        <div className="col-6 col-md-4">
                             <span>Arpit Sirasao</span>
                         </div>
                     </div>
                     <br/>
                     <div className="row">
-                        <div className="col-4">
+                        <div className="col-6 col-md-4">
                             <span className="details">Date of Birth:</span>
                         </div>
-                        <div className="col-4">
+                        <div className="col-6 col-md-4">
                             <span>14<sup>th</sup> November 1998</span>
                         </div>
                     </div>
                     <br/>
                     <div className="row">
-                        <div className="col-4">
+                        <div className="col-6 col-md-4">
                             <span className="details">Email:</span>
                         </div>
-                        <div className="col-4">
+                        <div className="col-6 col-md-4">
                             <span>arpitsirasao98@gmail.com</span>
                         </div>
                     </div>
                     <br/>
                     <div className="row">
-                        <div className="col-4">
+                        <div className="col-6 col-md-4">
                             <span className="details">Languages known:</span>
                         </div>
                         <div className="col-6">

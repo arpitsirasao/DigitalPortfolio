@@ -28,7 +28,9 @@ class Container extends Component{
 }
 
 class App extends Component {
-
+  componentDidMount() {
+    document.title = 'Arpit Sirasao';
+  }
   render(){
     return (
       <>
