@@ -1,13 +1,440 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+html{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Oxygen','Roboto',sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar{
+  background-color: white;
+  opacity: 0.9;
+  font: #151515;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar-brand{
+  font-size:1.9rem;
+  font-weight: 500;
+  color: #151515;
+}
+
+.active{
+  font-weight:bold;
+  border-bottom:1px solid #151515;
+}
+
+/* .navbar li a:hover{
+  background: rgba(0,0,0,0.3);
+  color: black;
+  border-radius:3px;
+  /* opacity: 0.9; 
+} */
+
+.navbar .nav-item .div-nav-item:hover{
+  background: rgba(0,0,0,0.3);
+  color: black;
+  border-radius:3px;
+  /* opacity: 0.9; */
+}
+
+#logo_img{
+  margin-top:20px;
+}
+
+#nav_logo{
+  height:40px;
+  width:120px;
+  padding:0px;
+  margin:0px;
+}
+
+@media(max-width: 991px){
+  .navbar-brand{
+    font-size: 1.5rem;
+  }
+}
+
+#home, #about, #projects, #achievements, #contact {
+  background: #151515;
+  background-image: url('./images/portfolio_bg.jpeg');
+  color:  #ededed;
+  background-size:cover;
+  background-repeat: no-repeat;
+ background-size: 100%;
+ background-position: center;
+ /* background-size: contain; */
+  width: 100%;
+  height: 100%;
+  min-height: 720px;
+  position: relative;
+}
+
+
+
+#about{
+  background: #ededed;
+  color:  #151515;
+}
+
+#resume{
+  /* background: #151515; */
+   background-image: url('./images/resume_bg.jpg');
+    background-repeat: no-repeat;
+  color:  #151515;
+}
+
+#projects{
+  background: #ededed;
+  color:  #151515;
+}
+
+#contact{
+  background: #151515;
+  /* background-image: url('./images/contact_bg.jpg'); */
+  color:  #ededed;
+}
+
+
+/* -------------------Home1---------------------------- */
+
+#home{
+   background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 60%, rgba(255, 255, 255, 0.8) 40%), url('./images/portfolio_bg.jpeg');
+}
+
+#home .comp_tags{
+  color: #ff5500;
+  font-family: 'Cutive Mono', monospace;
+  text-align:left;
+}
+
+
+#home .container{
+  /* position: relative; */
+}
+
+#home .data{
+  min-height: 325px;
+}
+
+#home #arpit_img{
+  height:300px;
+  width: 300px;
+  border: 4px solid white;
+  border-radius:50%;
+}
+
+#home #arpit_desc{
+  font-family: 'Cinzel', sans-serif;
+  color: #151515;
+}
+
+#home #home-note h1{
+  margin: 0 0 10px;
+    /* white-space: nowrap; */
+    font-family: 'Josefin Sans', sans-serif;
+    /* font-family: 'Josefin Sans', sans-serif; */
+    /* font-family:'Oxygen', sans-serif; */
+    font-size: 100px;
+    line-height: 1;
+    color: #fff;
+    /* text-align:center; */
+}
+
+#home #home-note h1:hover{
+  color:#e3c4af;
+}
+
+@media(max-width: 1200px){
+  #home{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 55%, rgba(255, 255, 255, 0.8) 45%), url('./images/portfolio_bg.jpeg');
+  }
+}
+
+@media(max-width: 991px){
+#home{
+   background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 65%, rgba(255, 255, 255, 0.8) 35%), url('./images/portfolio_bg.jpeg');
+}
+
+  #home #arpit_desc{
+  /* font-family: 'Cinzel', sans-serif; */
+  color: #fff;
+  font-weight:none;
+}
+}
+
+@media(max-width: 518px){
+  #home{
+   background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 72%, rgba(255, 255, 255, 0.8) 28%), url('./images/portfolio_bg.jpeg');
+  }
+  #home #home-note h1{
+    font-size: 75px;
+  }
+  #home #arpit_desc{
+  font-size: 25px;
+}
+}
+
+@media(max-width: 500px){
+  #home{
+   background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 70%, rgba(255, 255, 255, 0.8) 30%), url('./images/portfolio_bg.jpeg');
+  }
+}
+
+/* ----------------About--------------------- */
+
+#about .comp_tags{
+  color:#bd0bb4;
+  font-family: 'Cutive Mono', monospace;
+}
+
+#about .fa-star{
+  color: #c9c5bf;
+}
+
+
+#about .checked {
+  color: #f0991f;
+}
+
+
+#about .details {
+  color: #6b6a6a;
+}
+
+#about span{
+  font-size: 1.1em;
+}
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+/* ----------------Resume Timeline--------------------- */
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+ /* Timeline vertical line */
+ul.timeline:before {
+    content: ' ';
+    background:  #ededed;
+    display: inline-block;
+    position: absolute;
+    left: 16px;
+    width: 4px;
+    height: 100%;
+    z-index: 400;
+    border-radius: 1rem;
+}
+
+li.timeline-item {
+    margin: 20px 0;
+}
+
+/* Timeline item arrow */
+.timeline-arrow {
+    border-top: 0.5rem solid transparent;
+    border-right: 0.5rem solid #fff;
+    border-bottom: 0.5rem solid transparent;
+    display: block;
+    position: absolute;
+    left: 2rem;
+}
+
+/* Timeline item circle marker */
+li.timeline-item::before {
+    content: ' ';
+    background: ;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    left: 11px;
+    width: 14px;
+    height: 14px;
+    z-index: 400;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+
+#resume .resume-info{
+  color: #ededed;
+}
+
+.timeline-item{
+  background: rgb(255,255,255,0.8);
+}
+
+#resume a{
+  background: #ededed;
+    display: inline-block;
+    position: absolute;
+    padding: 10px 40px 10px 40px;
+    margin: 10px;
+     color:  #151515;
+     border-radius: 5px;
+    text-decoration :none;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+#resume a:hover{
+  transition: ease-in-out 0.2s;
+  background: #151515;
+  color: #ededed;
+  font-weight: bold;
+}
+
+#resume .comp_tags{
+  color: #03ecfc;
+  font-family: 'Cutive Mono', monospace;
+}
+
+
+/* ---------------Projects---------------------- */
+
+#projects .comp_tags{
+  color: #2c700a;
+  font-family: 'Cutive Mono', monospace;
+}
+
+#projects .card{
+  background: #c2c2c2;
+  border-radius: 10px;
+  margin: 20px auto;
+  /* padding-top: 20px; */
+}
+
+#projects .card .carousel-inner{
+  border-radius: 5px;
+}
+
+#projects .card .card-header{
+  background:#151515;
+  color: #ededed;
+}
+
+.carousel-inner .item {
+    position: relative;
+    display: none;
+    -webkit-transition: 1s ease-in-out left;
+    -moz-transition: 1s ease-in-out left;
+    -o-transition: 1s ease-in-out left;
+    transition: 1s ease-in-out left;
+}
+
+.zoom:hover {
+  transition: ease-in-out 0.2s;
+  transition:0.2s;
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+    /* width: 300px;
+  height: 250px; */
+  position: relative;
+  display: block;
+  /* border: 3px solid #fed136; */
+  background-color: #b20000;
+  border-radius: 40px;
+  position: relative;
+  z-index: 999;
+}
+
+/* --------------Contact--------------------------- */
+
+#contact .comp_tags{
+  color: #ff0000;
+  font-family: 'Cutive Mono', monospace;
+}
+
+#contact #contact-note h1{
+  margin: 0 0 10px;
+    /* white-space: nowrap; */
+    font-size: 75px;
+    line-height: 1;
+    color: #fff;
+}
+
+#contact #contact-knowmore h3{
+  margin: 0 0 10px;
+    /* white-space: nowrap; */
+    /* font-size: 40px; */
+    line-height: 1;
+    color: #fff;
+}
+
+#contact .div-icon{
+  margin:10px;
+  width: 50px;
+  height:50px;
+  font-size: 25px;
+  position:relative;
+  color: #151515;
+    background: rgba(255,255,255,0.9);
+    border-radius: 50%;
+}
+
+#contact .fa{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* #contact #l123{
+  color:white;
+}
+
+#contact #l123:hover{
+  color:red;
+} */
+
+#contact .span-icon{
+  color:#151515;
+}
+
+#contact #li-icon:hover,#fb-icon:hover{
+  color:#0d3a82;
+}
+
+#contact #gm-icon:hover{
+  color:#e63232;
+}
+
+#contact #in-icon:hover{
+  color:#e63298;
+}
+
+#contact #linkedin:hover,#fb:hover{
+  background:skyblue;
+  opacity:0.9;
+  /* color:#0d3a82; */
+  font-size:27px;
+}
+
+#contact #gmail:hover{
+  background:white;
+  /* color:#e63232; */
+   font-size:27px;
+} 
+
+#contact #insta:hover{
+  background:pink;
+  opacity:0.9;
+  /* color:#e63298; */
+   font-size:27px;
 }
