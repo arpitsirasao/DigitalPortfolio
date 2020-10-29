@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/DigitalPortfolio/static/css/main.b4cc40e8.chunk.css",
+    "main.js": "/DigitalPortfolio/static/js/main.fcd3ffac.chunk.js",
+    "main.js.map": "/DigitalPortfolio/static/js/main.fcd3ffac.chunk.js.map",
+    "runtime-main.js": "/DigitalPortfolio/static/js/runtime-main.1f9a207a.js",
+    "runtime-main.js.map": "/DigitalPortfolio/static/js/runtime-main.1f9a207a.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/DigitalPortfolio/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.ee02e522.chunk.js": "/DigitalPortfolio/static/js/2.ee02e522.chunk.js",
+    "static/js/2.ee02e522.chunk.js.map": "/DigitalPortfolio/static/js/2.ee02e522.chunk.js.map",
+    "index.html": "/DigitalPortfolio/index.html",
+    "precache-manifest.9d36816390a04c14e9e3078ddd7eddc2.js": "/DigitalPortfolio/precache-manifest.9d36816390a04c14e9e3078ddd7eddc2.js",
+    "service-worker.js": "/DigitalPortfolio/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/DigitalPortfolio/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.b4cc40e8.chunk.css.map": "/DigitalPortfolio/static/css/main.b4cc40e8.chunk.css.map",
+    "static/js/2.ee02e522.chunk.js.LICENSE.txt": "/DigitalPortfolio/static/js/2.ee02e522.chunk.js.LICENSE.txt",
+    "static/media/ArpitSirasaoResume.pdf": "/DigitalPortfolio/static/media/ArpitSirasaoResume.03590f65.pdf",
+    "static/media/ProjectAssignment1.png": "/DigitalPortfolio/static/media/ProjectAssignment1.0e42ae6e.png",
+    "static/media/ProjectAssignment2.png": "/DigitalPortfolio/static/media/ProjectAssignment2.49e8a2ca.png",
+    "static/media/ProjectLibra1.png": "/DigitalPortfolio/static/media/ProjectLibra1.00d2091f.png",
+    "static/media/ProjectLibra2.png": "/DigitalPortfolio/static/media/ProjectLibra2.03b4e688.png",
+    "static/media/ProjectMyPortfolio1.png": "/DigitalPortfolio/static/media/ProjectMyPortfolio1.b4c270df.png",
+    "static/media/ProjectMyPortfolio2.png": "/DigitalPortfolio/static/media/ProjectMyPortfolio2.b630e013.png",
+    "static/media/arpit_logo.jpeg": "/DigitalPortfolio/static/media/arpit_logo.41d50582.jpeg",
+    "static/media/logo.jpg": "/DigitalPortfolio/static/media/logo.f4fbf9a7.jpg",
+    "static/media/index.css": "/DigitalPortfolio/static/media/resume_bg.7fc9b438.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1f9a207a.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.ee02e522.chunk.js",
+    "static/css/main.b4cc40e8.chunk.css",
+    "static/js/main.fcd3ffac.chunk.js"
+  ]
+}
