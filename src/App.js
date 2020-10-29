@@ -46,7 +46,7 @@ class App extends Component {
               document.getElementById(home1").scrollIntoView();
             }}
           /> */}
-          <Route exact path="/" component={Container}
+          <Route path="/" component={Container}
             onEnter={function(){
               document.getElementById("home").scrollIntoView();
             }}
